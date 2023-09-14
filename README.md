@@ -4,14 +4,6 @@ Instalando sequelize
 Instalando os drives do postgresql
 -- npm install --save pg pg-hstore
 
-Conectando ao banco 
-try {
-  await sequelize.authenticate();
-  console.log('Conectou com sucesso.');
-} catch (error) {
-  console.error('Não conectou', error);
-}
-
 //Migrations
 npm install sequelize-cli -D
 
