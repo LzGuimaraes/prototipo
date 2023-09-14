@@ -11,11 +11,8 @@ comandos para criar banco
 //npx sequelize db:create
 
 criando tabelas
-//npx sequelize migration:create --name=create-table-nome-da-migration
 
 após todas as tabelas criadas criar as migrations 
-criando os relacionamentos 
-//npx sequelize migration:create --name=create-relation-tabble1-to-table2
 
 --npm i express -D
 --npm i nodemon -D
