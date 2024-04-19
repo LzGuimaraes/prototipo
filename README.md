@@ -18,4 +18,4 @@ após todas as tabelas criadas criar as migrations
 --npm i nodemon -D
 --npm install bcrypt dotenv jsonwebtoken
 
-### OBS: as rotas estão entregando objeto vazio no request.body
+
