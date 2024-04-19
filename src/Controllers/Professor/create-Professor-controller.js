@@ -5,7 +5,7 @@ class CreateProfessorController {
         try {
             const {nome, sobrenome, matricula, CPF,cargo, materia_ministrada, email, senha} = request.body;
                 //Verifica se os dados são nulos
-                if (!nome || !sobrenome || !matricula || !CPF || !cargo || materia_ministrada || !email || !senha) 
+                if (!nome || !sobrenome || !matricula || !CPF || !cargo || !materia_ministrada || !email || !senha) 
                 { return response.status(400).json ({
                     error: 'Todos os campos são Obrigatórios'
                 });
